@@ -1,0 +1,10 @@
+[package]
+name = "projecteulerinrust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+id_1_multiples_of_3_or_5 = {path = "id_under_50/id_1_multiples_of_3_or_5"}
+id_2_even_fibonacci_numbers = {path = "id_under_50/id_2_even_fibonacci_numbers"}
