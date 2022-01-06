@@ -1,5 +1,5 @@
 [package]
-name = "id_1_multiples_of_3_or_5"
+name = "id_4_largest_palindrome_product"
 version = "0.1.0"
 edition = "2021"
 

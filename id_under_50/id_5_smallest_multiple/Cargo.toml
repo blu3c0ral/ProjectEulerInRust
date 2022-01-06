@@ -1,5 +1,5 @@
 [package]
-name = "id_1_multiples_of_3_or_5"
+name = "id_5_smallest_multiple"
 version = "0.1.0"
 edition = "2021"
 
