@@ -11,4 +11,5 @@ id_1_multiples_of_3_or_5 = {path = "id_under_50/id_1_multiples_of_3_or_5"}
 id_2_even_fibonacci_numbers = {path = "id_under_50/id_2_even_fibonacci_numbers"}
 id_3_largest_prime_factor = {path = "id_under_50/id_3_largest_prime_factor"}
 id_4_largest_palindrome_product = {path = "id_under_50/id_4_largest_palindrome_product"}
-id_5_smallest_multiple = {path = "id_under_50/id_5_smallest_multiple"}
+# id_5_smallest_multiple = {path = "id_under_50/id_5_smallest_multiple"}
+id_8_largest_product_in_a_series = {path = "id_under_50/id_8_largest_product_in_a_series"}

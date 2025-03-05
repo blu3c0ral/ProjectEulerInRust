@@ -2,9 +2,8 @@ use std::collections::HashMap;
 use utils;
 
 fn get_factors(number: i64, primes: &Vec<i64>) -> HashMap<i64, i64> {
-    let n_sqrt = ((number as f64).sqrt() as i64) + 1;
-    let mut factors_table :HashMap<i64, i64> = HashMap::new();
-    let mut divs :(i64, i64);
+    let mut factors_table: HashMap<i64, i64> = HashMap::new();
+    let mut divs: (i64, i64);
     let mut num = number;
     for prime in primes {
         divs = utils::div_rem(num, *prime);
@@ -23,12 +22,12 @@ fn get_factors(number: i64, primes: &Vec<i64>) -> HashMap<i64, i64> {
 
 pub fn smallest_multiple(upper_bound: i64) -> i64 {
     let primes = utils::get_primes_to_n(upper_bound);
-    let mut primes_table :HashMap<i64, i64> = HashMap::new();
-    let mut factors_table :HashMap<i64, i64>;
-    let mut mul_var :i64 = 1;
+    let mut primes_table: HashMap<i64, i64> = HashMap::new();
+    let mut factors_table: HashMap<i64, i64>;
+    let mut mul_var: i64 = 1;
 
-    for prime in primes {
-        primes_table.insert(prime, 0);
+    for prime in &primes {
+        primes_table.insert(*prime, 0);
     }
     for i in 2..upper_bound {
         if primes_table.contains_key(&i) {
